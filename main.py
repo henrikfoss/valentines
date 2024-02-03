@@ -46,7 +46,7 @@ if valentine_answer_yes:
         # Wait for 3 seconds before displaying the sweet message
         st.success(f"Det er hermed booket. Lad os spise {'på' if selected_restaurant == 'Bones' else ''} {selected_restaurant} og se {selected_movie} i {selected_time}. 🎬")
         time.sleep(3)
-        st.success("\n Jeg elsker dig uendelig opløftet i uende og jeg glæder mig til Valentinsdag med dig! ❤️")
+        st.success("\n Jeg elsker dig uendelig opløftet i uendelig ♾️💖 og jeg glæder mig til Valentinsdag med dig! ❤️")
 
     # Clear the 'No' container if it exists
     valentine_answer_no_container.empty()
